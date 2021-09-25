@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.open {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+/* linear-gradient header */
+
+header {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    background-image: linear-gradient(120deg, #8b34af, #d7246c);
+    min-height: 90vh;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+a.nav-link {
+    color: white !important;
+    font-weight: 800;
+    font-size: 12px;
+}
+a.nav-link:hover {
+    color: yellowgreen !important;
+}
+
+.navbar-brand {
+    font-size: 1rem;
+}
+
+.btn-reg {
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 12px;
+}
+
+/* section header banner */
+
+.sec1 .individually {
+    font-size: 20px;
+}
+
+.sec1 span {
+    color: #8eff54;
+}
+
+.sec1 .paragraph {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+
+.sec1 .next-button {
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+}
+
+.sec1 .next-button:hover {
+    background: lightslategray;
+}
+
+/* section header banner images */
+
+.woman {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    margin-top: -250px;
+    z-index: -999;
+}
+
+.man {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: -90px;
+    z-index: -1000;
+}
+
+/* SHAPES */
+
+#circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #d7246c;
+    position: relative;
+    right: 80px;
+    top: 30px;
+}
+
+#circle-white {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    right: 420px;
+    top: 110px;
+    z-index: -10000;
+}
+
+/* section 2 -> sec2 with three boxes */
+
+.sec2 {
+    position: relative;
+    z-index: 2000;
+}
+
+.sec2 h1 {
+    font-size: 35px;
+}
+
+.sec2 p {
+    font-size: 14px;
+}
+
+.etrend {
+    background-image: url(./img/healthy-food-LH758VD.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.grad1 {
+    background: rgba(184, 17, 84, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.etrend p {
+    font-size: 0.8rem;
+}
+
+.edzesterv {
+    background-image: url(./img/fitness-woman-working-out-on-core-muscles-PW2B9H2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.grad2 {
+    background: linear-gradient(
+        120deg,
+        rgba(72, 127, 158, 0.7),
+        rgba(128, 4, 191, 0.7)
+    );
+    width: 100%;
+    height: 100%;
+}
+
+.edzesterv p {
+    font-size: 0.8rem;
+}
+
+.csomag {
+    background-image: url(./img/woman-at-waterfall-P3JCR5X.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.csomag p {
+    font-size: 0.8rem;
+}
+
+.grad3 {
+    background: linear-gradient(
+        45deg,
+        rgba(121, 150, 106, 0.7),
+        rgba(142, 255, 84, 0.7)
+    );
+    width: 100%;
+    height: 100%;
+}
+
+/* section 3 -> sec3 card-group with heading */
+
+.bottle {
+    width: 10%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.sec3 {
+    padding: 4rem 0;
+}
+
+.sec3 h1 {
+    font-size: 1rem;
+    color: #8b34af;
+}
+
+.sec3 h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.card {
+    border: none;
+}
+
+/* section 4 ->sec4 with video */
+
+.sec4 h1 {
+    font-size: 1rem;
+    color: #8b34af;
+}
+
+.sec4 h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.read {
+    background-image: linear-gradient(120deg, #8b34af, #d7246c);
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 0.8rem;
+    letter-spacing: 0px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.read:hover,
+.btn-all-read:hover {
+    background: none;
+    background-color: blue;
+}
+
+/* section 5 -> sec5 with three cards and prices */
+
+.sec5 {
+    background: url(./img/01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.sec5 h1 {
+    font-size: 1rem;
+}
+
+.sec5 p.card-text {
+    margin: 0;
+}
+
+#fifth-etrend {
+    color: #d7246c;
+}
+
+#fifth-edzes {
+    color: #8004bf;
+}
+
+#fifth-fit {
+    color: #8eff54;
+}
+
+/* section 6 -> sec6 newsletter */
+
+.sec6 {
+    min-height: 30vh;
+    background: rgba(189, 101, 161, 0.5);
+}
+
+#newsletter {
+    position: relative;
+    background: url(./img/01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* section 7 -> sec 7 video */
+
+.sec7 h1 {
+    font-size: 1rem;
+    color: #8b34af;
+}
+
+.sec7 h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+/* section 10 -> sec 10 and section 11 -> sec11 csapatunk with 4 images */
+
+.sec10 h1 {
+    font-size: 1rem;
+    color: #8b34af;
+}
+
+.sec10 h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.btn-all-read {
+    background-image: linear-gradient(90deg, #497d9f, #7d0abd);
+
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 0.8rem;
+    letter-spacing: 0px;
+}
+
+.fitman {
+    background: url(./img/fit-man-working-out-at-the-beach-Y5AMHPZ.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    background: linear-gradient(
+        45deg,
+        rgba(131, 68, 190, 0.7),
+        rgba(183, 26, 126, 0.7)
+    );
+    width: 100%;
+    height: 100%;
+}
+
+.sec11 i:hover {
+    background-color: rgba(10, 7, 172, 0.8);
+}
+
+/* section 12 -> sec12 csapatban cégeknek */
+
+.sec12 h1 {
+    font-size: 1rem;
+    color: #8b34af;
+    margin-bottom: 0.5rem;
+}
+
+.sec12 h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+/* section 13 -> sec13 */
+
+.sec13 h1 {
+    font-size: 1rem;
+    color: #8b34af;
+}
+
+.sec13 h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+/* csapatunk */
+
+.step {
+    background: url(./img/bruno-nascimento-PHIgYUGQPvU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.shirt {
+    background: url(./img/scott-webb-5IsdIqwwNP4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.purple {
+    background-image: linear-gradient(45deg, #487f9e, #7027b6);
+    /* width: 100%;
+    height: 100%; */
+}
+
+.central {
+    width: 100%;
+    height: 100%;
+}
+
+.naturbutton {
+    background-color: white;
+    color: #8004bf;
+    border: none;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #2d2d2d;
+}
+
+.insta img {
+    width: 100%;
+    height: 100%;
+}
+
+.smed {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.smed li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.smed li a {
+    color: white;
+    font-size: 1rem;
+    transform: 0.5s;
+    background-color: #818181;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.smed li a:hover {
+    color: #497d9f;
+    background-color: #141516;
+}
+
+.copyright {
+    background-color: #282828;
+}
+
+.copyright h5,
+.copyright p {
+    font-size: 1rem;
+    color: #818181;
+}
+
+.last-row {
+    height: 10vh;
+}
+
+/* body
+    > section:nth-child(17)
+    > div
+    > div
+    > div
+    > div
+    > div:nth-child(2)
+    > div
+    > div
+    > div.col-md-8
+    > div {
+    background-color: #2d2d2d;
+} */
+
+.footer ul li {
+    list-style-type: none;
+}
+
+.footer ul li a,
+.footer .tel {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer h1 {
+    font-size: 1rem;
+}
+
+.footer p,
+.footer .tel {
+    font-size: 12px;
+}

@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- bootstrap css -->
+
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
+        
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>IGP Fitness</title>
+    </head>
+    <body data-spy="scroll" data-target="#navScrollspy">
+        
+        <!-- linear-gradient header -->
+
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light pt-sm-4">
+                            <a class="navbar-brand text-uppercase text-white font-weight-bold" href="#"
+                            >IGP <br />
+                            Fitness
+                        </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto text-uppercase ">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Étrend</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Edzésterv</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Csomag</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Videó</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Blog</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="navbar-nav ml-lg-auto text-uppercase">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Fiókom</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                            href="#"
+                                            class="btn btn-transparent btn-reg"
+                                            >regisztráció</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <!-- section header banner -->
+
+            <section class="">
+                <div class="container">
+                    <div class="row sec1">
+                        <div class="col-sm-6 flex-column justify-content-center text-white">
+                            <div class="d-none d-sm-block" id="diamond"></div>
+                            <p class="text-uppercase pt-5 individually">individually guided project of fitness</p>
+                            <div class="d-none d-sm-block" id="circle"></div>
+                            <h2 class="text-uppercase"><strong>igp fitness</strong> <br /><span> shape your life </span></h2>
+                            <p class="open col-md-10 pl-0 mb-5 mb-sm-5">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Eaque, quam fuga. Autem optio hic aspernatur
+                                quam ducimus earum sed doloremque.
+                            </p>
+                            <a href="#" class="next-button nav-item font-weight-bold text-white ">tovább</a>
+                        </div>
+
+                        <div class="col-sm-2">
+                            <img src="./img/woman_4.png" class="d-none d-lg-block woman " alt="woman"/>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <img src="./img/man.png" class="d-none d-lg-block man" alt="man"/>
+                        </div>
+                        
+                        <div class="d-none d-lg-block" id="circle-white"></div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <!-- section 2 with three boxes -->
+
+        <section>
+            <div class="container-fluid">
+                <div class="row sec2 text-center font-weight-bold mb-5">
+                    <div class="col-sm-6 col-lg-4 mb-4 etrend p-0">
+                        <div class="grad1 text-white text-uppercase d-flex flex-column align-items-center justify-content-center p-5">
+                            <p class="text-white text-uppercase">igp fitness</p>
+                            <h1 class="font-weight-bold">étrend</h1>
+                            <a href="#" class="btn btn-reg">érdekel</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4 edzesterv p-0">
+                        <div class="grad2 text-white text-uppercase d-flex flex-column align-items-center justify-content-center p-5">
+                            <p>igp fitness</p>
+                            <h1 class="font-weight-bold" >edzésterv</h1>
+                            <a href="#" class="btn btn-reg">érdekel</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4 csomag p-0">
+                        <div class="grad3 text-white text-uppercase d-flex flex-column align-items-center justify-content-center p-5">
+                            <p>igp fitness</p>
+                            <h1 class="font-weight-bold">fit csomag</h1>
+                            <a href="#" class="btn btn-reg">érdekel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       
+        <!-- card-group with heading third row-->
+
+            <section class="sec3">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-sm-12">
+                            <h1 class="text-uppercase mb-2">Amit mi kínálunk</h1>
+                            <h2 class="text-uppercase mb-5">Fogalmazd meg a célod</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card-group mb-0 mb-sm-5">
+                            <div class="card col-sm-6 col-md-3">
+                                <img
+                                    src="./img/bottle.jpg"
+                                    class="card-img-top bottle"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-uppercase">
+                                        Egészséges élet
+                                    </h5>
+                                    <p class="card-text text-center">
+                                        This is a wider card with supporting text below
+                                        as a natural lead-in to additional content. This
+                                        content is a little bit longer.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card col-sm-6 col-md-3">
+                                <img
+                                    src="./img/suly.jpg"
+                                    class="card-img-top bottle"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-uppercase">
+                                        Edzés
+                                    </h5>
+                                    <p class="card-text text-center">
+                                        This is a wider card with supporting text below
+                                        as a natural lead-in to additional content. This
+                                        content is a little bit longer.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card col-sm-6 col-md-3">
+                                <img
+                                    src="./img/strategia.jpg"
+                                    class="card-img-top bottle"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-uppercase">
+                                        Stratégia
+                                    </h5>
+                                    <p class="card-text text-center">
+                                        This is a wider card with supporting text below
+                                        as a natural lead-in to additional content. This
+                                        content is a little bit longer.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card col-sm-6 col-md-3">
+                                <img
+                                    src="./img/video.jpg"
+                                    class="card-img-top bottle"
+                                    alt="..."
+                                />
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-uppercase">
+                                        Videók
+                                    </h5>
+                                    <p class="card-text text-center">
+                                        This is a wider card with supporting text below
+                                        as a natural lead-in to additional content. This
+                                        content is a little bit longer.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+
+        <!-- section 4 with video -->
+        <section">
+            <div class="container">
+                <div class="row sec4 mb-5 d-flex align-items-center justify-content-center">
+                    <div class="col-sm-5 text-center text-sm-left">
+                        <h1 class="text-uppercase text-center text-sm-left mb-sm-2">Változz velünk</h1>
+                        <h2 class="text-uppercase text-center text-sm-left mb-4">Hogyan segítünk?</h2>
+                        <p class="text-center text-sm-left open">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio facilis voluptatum nostrum amet voluptas
+                            architecto suscipit. Quibusdam accusamus fuga enim.
+                        </p>
+                        <a href="#" class="btn btn-primary read mb-5 mb-sm-0 text-uppercase">olvass tovább</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <img
+                            src="./img/victor-freitas-WvDYdXDzkhs-unsplash.jpg"
+                            class="img-fluid"
+                            alt="..."
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- section 5 with three cards and prices -->
+
+        <section>
+            <div class="container-fluid">
+                <div class="row sec5 d-flex align-items-center justify-content-end">
+                    <div class="container">
+                        <div class="row d-flex align-items-center justify-content-end">
+                            <div class="col-sm-9">
+                                <div class="card-deck">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <h4 class="card-title display-5 font-weight-bold mb-4">
+                                                20.000 Ft
+                                            </h4>
+                                            <p class="card-text text-uppercase"">
+                                                igp fitness
+                                            </p>
+                                            <h2 class="display-5 text-uppercase font-weight-bold" id="fifth-etrend">Étrend</h2>
+                                        </div>
+                                        <ul class="list-group list-group-flush text-center">
+                                            <li class="list-group-item">Cras justo odio</li>
+                                            <li class="list-group-item">
+                                                Dapibus ac facilisis in
+                                            </li>
+                                            <li class="list-group-item">
+                                                Vestibulum at eros
+                                            </li>
+                                            <li class="list-group-item">
+                                                Lorem, ipsum dolor.
+                                            </li>
+                                        </ul>
+                                        <div class="card-body text-center">
+                                            <a href="#" class="btn btn-primary text-uppercase btn-all-read">tovább</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <h4 class="card-title display-5 font-weight-bold mb-4">
+                                                20.000 Ft
+                                            </h4>
+                                            <p class="card-text text-uppercase"">
+                                                igp fitness
+                                            </p>
+                                            <h2 class="display-5 text-uppercase font-weight-bold" id="fifth-edzes">Edzésterv</h2>
+                                        </div>
+                                        <ul class="list-group list-group-flush text-center">
+                                            <li class="list-group-item">Cras justo odio</li>
+                                            <li class="list-group-item">
+                                                Dapibus ac facilisis in
+                                            </li>
+                                            <li class="list-group-item">
+                                                Vestibulum at eros
+                                            </li>
+                                            <li class="list-group-item">
+                                                Lorem, ipsum dolor.
+                                            </li>
+                                        </ul>
+                                        <div class="card-body text-center">
+                                            <a href="#" class="btn btn-primary btn-all-read text-uppercase">tovább</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <h4 class="card-title display-5 font-weight-bold mb-4">
+                                                15.000 Ft
+                                            </h4>
+                                            <p class="card-text text-uppercase"">
+                                                igp fitness
+                                            </p>
+                                            <h2 class="display-5 text-uppercase font-weight-bold" id="fifth-fit">Fit csomag</h2>
+                                        </div>
+                                        <ul class="list-group list-group-flush text-center">
+                                            <li class="list-group-item">Cras justo odio</li>
+                                            <li class="list-group-item">
+                                                Dapibus ac facilisis in
+                                            </li>
+                                            <li class="list-group-item">
+                                                Vestibulum at eros
+                                            </li>
+                                            <li class="list-group-item">
+                                                Lorem, ipsum dolor.
+                                            </li>
+                                        </ul>
+                                        <div class="card-body text-center">
+                                            <a href="#" class="btn btn-primary text-uppercase btn-all-read">tovább</a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="col-sm-3 text-center text-white">
+                                <h1 class="text-uppercase font-weight-bold mb-sm-2">Változz velünk</h1>
+                                <h2 class="text-uppercase font-weight-bold mb-sm-3">igp</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Voluptatum, impedit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+                    
+        <!-- newslatter section 6-->
+
+        <section id="newsletter">
+            <div class="container-fluid mt-4 mt-sm-0">
+                <div class="row sec6 d-flex align-items-center justify-content-end">
+                    <div class="container">
+                        <div class="row d-flex align-items-center justify-content-end">
+                            <div class="col-sm-6">
+                                    <h2 class="text-uppercase text-white">ne maradj le semmiről,</h2>
+                                    <h2 class="text-uppercase text-white" >iratkozz fel hírlevelünkre!</h2>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <form class="form-inline">
+                                    <div class="form-group mx-sm-3 mb-2">
+                                        <label class="sr-only">E-mail</label>
+                                        <input type="password" class="form-control rounded-pill" id="inputPassword2" placeholder="E-mail">
+                                        <button id="feliratkozom" type="submit" class="btn btn-primary rounded-pill text-uppercase">Feliratkozom</button>
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- video section 7 -->
+
+        <section>
+            <div class="container">
+                <div class="row sec7 mb-4">
+                    <div class="col-12 mt-5">
+                        <h1 class="text-uppercase text-center mb-4">video</h1>
+                        <h2 class="text-uppercase text-center mb-4">videos edzéseink</h2>
+                        <p class="text-center open">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio facilis voluptatum nostrum amet voluptas
+                            architecto suscipit. Quibusdam accusamus fuga enim.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- different sizes of images section 8 -->
+
+        <section>
+            <div class="container">
+                <div class="row sec8 text-center text-sm-left col">
+                    <div class="col-sm-3 ">
+                        <img src="./img/victor-freitas-WvDYdXDzkhs-unsplash.jpg" class="img-fluid" alt="...">
+                        <div class="card-body ">
+                            <p class="card-text"><small class="text-muted">2019. július 20.</small></p>
+                            <p class="card-text">Súlyzós edzések (1/14)</p>
+                            <div>
+                                <a href="#" class="text-uppercase">tovább</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 ">
+                        <img src="./img/emily-sea-coiWR0gT8Cw-unsplash.jpg" class="img-fluid " alt="responsive">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">2019. július 20.</small></p>
+                            <p class="card-text">Yoga kezdőknek</p>
+                            <div>
+                                <a href="#" class="text-uppercase">tovább</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 ">
+                        <img src="./img/meghan-holmes-wy_L8W0zcpI-unsplash.jpg" class="img-fluid " alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">2019. július 20.</small></p>
+                            <p class="card-text">Fitness, cardio, motiváció (2/10)</p>
+                            <div>
+                                <a href="#" class="text-uppercase">tovább</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                <!-- different sizes of images section 9 -->
+
+                <div class="row sec9 text-center text-sm-left">
+                    <div class="col-sm-6">
+                        <img src="./img/arthur-edelman-qfjuh4OLdxw-unsplash.jpg" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">2019. július 23.</small></p>
+                            <p class="card-text">Súlyzós edzések (2/14)</p>
+                            <div>
+                                <a href="#" class="text-uppercase">tovább</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="./img/tammy-gann-wiI32TvuGi8-unsplash.jpg" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">2019. július 23.</small></p>
+                            <p class="card-text">Nyújtsunk együtt</p>
+                            <div>
+                                <a href="#" class="text-uppercase">tovább</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="./img/danny-kekspro-MJRyDPYaOLA-unsplash.jpg" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">2019. július 23.</small></p>
+                            <p class="card-text">A futás technikája</p>
+                            <div>
+                                <a href="#" class="text-uppercase">tovább</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <a href="#" class="btn btn-primary btn-all-read text-uppercase mb-4">összes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- csapatunk section 10 with 4 images sec10 and sec11 -->
+
+        <section>
+            <div class="container">
+                <div class="row sec10 mb-4">
+                    <div class="col-12 mt-5">
+                        <h1 class="text-uppercase text-center mb-4">igp fitness</h1>
+                        <h2 class="text-uppercase text-center mb-4">a csapatunk</h2>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section>
+            <div class="container-fluid">
+                <div class="row sec11 mb-0 mb-sm-5">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="./img/fitness-woman-working-out-on-core-muscles-PW2B9H2.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card fitman">
+                            <div class="overlay d-flex flex-column align-items-center justify-content-center">
+                                <div class="card-body d-flex flex-column align-items-center justify-content-center text-white">
+                                    <h5 class="card-title text-uppercase text-center">sam smith</h5>
+                                    <p class="card-text text-uppercase text-center">personal trainer</p>
+                                    <div class="icons text-center">
+                                        <a href=""><i class="fa fa-facebook text-white mr-2"></i></a> 
+                                        <a href=""><i class="fa fa-linkedin text-warning mr-2"></i></a> 
+                                        <a href=""><i class="fa fa-instagram text-white"></i></a> 
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./img/christopher-campbell-kFCdfLbu6zA-unsplash.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card">
+                            <img src="./img/smiling-mature-man-having-healthy-breakfast-PM8HY7T.jpg" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 12 ->sec12 csapatban -->
+        
+        <section>
+            <div class="container">
+                <div class="row mb-4 sec12">
+                    <div class="col-sm-6 ">
+                        <img
+                            src="./img/zachary-nelson-98Elr-LIvD8-unsplash.jpg"
+                            class="img-fluid"
+                            alt="..."
+                        />
+                    </div>
+                    <div class="col-sm-5 text-center text-sm-right mt-1 mt-md-0 mt-lg-0 mt-xl-0 order-first order-sm-last ">
+                        <h1 class="text-uppercase">csapatban</h1>
+                        <h2 class="text-uppercase">cégeknek</h2>
+                        <p class="open">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio facilis voluptatum nostrum amet voluptas
+                            architecto suscipit. Quibusdam accusamus fuga enim.
+                        </p>
+                        <a href="#" class="btn btn-primary text-uppercase btn-all-read mb-4">olvass tovább</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 13 ->sec13 blog -->
+
+        <section>
+            <div class="container">
+                <div class="row sec13 mb-4">
+                    <div class="col-12 mt-5">
+                        <h1 class="text-uppercase text-center mb-4">blog</h1>
+                        <h2 class="text-uppercase text-center mb-4 col-sm-12">legfrissebb hírek</h2>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Maradj fit cards -->
+        
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="./img/happy-young-women-enjoying-bike-ride-PWHKD5H.jpg" class="card-img-top img-responsive" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Maradj fit</h5>
+                            <p class="card-text open">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="next-button nav-item text-uppercase">olvass tovább</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="./img/healthy-food-LH758VD.jpg" class="card-img-top img-responsive" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Maradj fit</h5>
+                            <p class="card-text open">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="next-button nav-item text-uppercase">olvass tovább</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <img src="./img/flexible-young-woman-doing-stretching-yoga-PVGGTTK.jpg" class="card-img-top img-responsive" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Maradj fit</h5>
+                            <p class="card-text open">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="next-button nav-item text-uppercase">olvass tovább</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col text-center">
+                    <a href="#" class="btn btn-primary text-uppercase btn-all-read mb-4">összes</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- csapatunk -->
+
+        <section>
+            <div class="container-fluid mt-5 mb-4 mb-sm-0">
+                <div class="row">
+                    <div class="col-lg-3 shirt">
+                        <div class="central d-flex flex-column align-items-center justify-content-center">
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center text-white">
+                                <p class="card-text text-center open">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, consectetur?</p>
+                                <h5 class="card-title text-uppercase text-center">sam smith</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 purple">
+                        <div class="text-white text-uppercase d-flex flex-column align-items-center justify-content-center p-5">
+                            <p>igp fitness</p>
+                            <h1 class="font-weight-bold text-center" >fit csomag</h1>
+                            <a href="#" class="btn btn-primary naturbutton text-uppercase pl-4 pr-4">tovább</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 step d-flex flex-column align-items-center justify-content-center">
+                        <div class=" text-white text-uppercase d-flex flex-column align-items-center justify-content-center p-5">
+                            <i class="fa fa-instagram pb-3"></i>
+                            <p>igp fitness</p>
+                            <a href="#" class="btn btn-primary text-white text-uppercase pl-4 pr-4 btn-all-read">kövess minket</a
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <section>
+            <div class="container-fluid">
+                <div class="row footer">
+                    <div class="container">
+                        <div class="row pt-5">
+                            <div class="col-sm-3 text-white text-center text-sm-left">
+                                <h1 class="font-weight-bold text-uppercase">igp fitness</h1>
+                                <p class="open">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, saepe aliquam! Ipsam quos natus maxime!</p>
+                                <a class="text-white tel" href="tel:+36-30-333-3333">+36-30-333-3333</a>
+                            </div>
+                        
+                            <div class="col-sm-3">
+                                <h1 class="font-weight-bold text-uppercase text-white text-center text-sm-left mt-4 mt-sm-0 mb-4 mb-sm-0">hírek</h1>
+                                <div class="mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="./img/c2d21f2e4ad19f1c8dbc2644015ba2b0.jpg" class="card-img mt-4" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <p class="card-title text-white open">lorem ipsum dolor</p>
+                                                
+                                                <p class="card-text"><small class="text-white">2019.07.16</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-top my-3"></div>
+                                </div>
+
+                                <div class="mb-3" style="max-width: 540px;">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="./img/ad466bdc9131758f73d6670e7db5bc82.jpg" class="card-img" alt="...">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <p class="card-title text-white open">lorem ipsum dolor</p>
+                                                
+                                                <p class="card-text"><small class="text-white">2019.07.16</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="border-top my-3"></div>
+                            </div>
+
+                            
+
+                            <div class="col-sm-3 ">
+                                <h1 class="font-weight-bold text-uppercase text-white ">instagram</h1>
+                                <div class="card-deck mb-4 insta">
+                                    <div class="card">
+                                        <img src="./img/a420108ab075db7379aac12b39f91e81.jpg" class="card-img " alt="">
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/5bf676182db10527a16f15e0943fd326.jpg" class="card-img pb-3" alt="">
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/313ce4c87fea01c1722faf3f7d3a2337.jpg" class="card-img" alt="">
+                                    </div>
+                                </div>
+                                <div class="card-deck mb-4">
+                                    <div class="card">
+                                        <img src="./img/a0a369fed45161272f4f1f3632320acc.jpg" class="card-img" alt="">
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/052012a8823c17a5af72de9d8aa59396.jpg" class="card-img" alt="">
+                                    </div>
+                                    <div class="card">
+                                        <img src="./img/4628c965defc8e33b463569fedaaf530.jpg" class="card-img" alt="">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        
+                            <div class="col-sm-3 text-center text-sm-left">
+                                <h1 class="font-weight-bold text-uppercase text-white">hasznos</h1>
+                                <ul>
+                                    <li><a href="#">Kapcsolat</a></li>
+                                    <li><a href="#">Cégeknek</a></li>
+                                    <li><a href="#">Magunkról</a></li>
+                                    <li><a href="#">ÁSZF</a></li>
+                                    <li><a href="#">Adatvédelmi tájékoztató</a></li>
+                                </ul>
+                                
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+        <!-- copyright -->
+
+        <section class="copyright pb-4 pb-sm-0">
+            <div class="container">
+                <div class="row last-row d-flex flex-row align-items-center">
+                    <div class="col-sm-6">
+                        <p>© Copyright IGP Fitness</p>
+                    </div>
+                    <div class="col-sm-6 d-flex flex-row align-items-center">
+                        <h5>Kövess minket</h5>
+                        <ul class="smed">
+                            
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
